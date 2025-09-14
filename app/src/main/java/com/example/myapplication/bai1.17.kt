@@ -1,0 +1,16 @@
+package com.example.myapplication
+
+fun main() {
+    val diceRoll = (1..6).random()
+
+    val drawableResource = when (diceRoll) {
+        1 -> "dice_1"
+        2 -> "dice_2"
+        3 -> "dice_3"
+        4 -> "dice_4"
+        5 -> "dice_5"
+        else -> "dice_6"
+    }
+
+    println("Tài nguyên hình ảnh: $drawableResource")
+}
