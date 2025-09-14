@@ -16,7 +16,8 @@ val numbers = listOf(1, 2, 3, 4, 5, 6)
 
 fun main() {
     val numbers = listOf(1, 2, 3, 4, 5, 6)
-        println(numbers.size)
+    println(numbers.size)
+
 
     println(numbers[0])
 
